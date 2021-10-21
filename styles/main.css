@@ -1,0 +1,56 @@
+.area {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+  border: 1px solid black;
+}
+
+.area .main {
+  top: 5%;
+  width: 60%;
+  height: 90%;
+  border: 1px solid black;
+  position: relative;
+}
+
+.area .main .main__ball {
+  position: absolute;
+  border: 1px solid black;
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.area .manage {
+  top: 5%;
+  width: 30%;
+  height: 90%;
+  border: 1px solid black;
+  position: relative;
+}
+
+.area .manage .manage__btn {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 5%;
+  left: 40%;
+}
+
+.area .manage .manage__field {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 100px;
+  height: 30px;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=main.css.map */
